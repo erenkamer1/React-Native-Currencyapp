@@ -1,37 +1,33 @@
 Currency App
 
 Installing
+
 Clone the Repository
-```bash
 git clone https://github.com/erenkamer1/React-Native-Currencyapp.git
 cd React-Native-Currencyapp
 
 
 Install Dependencies
-```bash
 npm install
+
 Configure Expo CLI (if not already installed)
-
 npm install -g expo-cli
-Start the Development Server
 
-sql
+Start the Development Server
 npm start
 This will start the Expo development server.
 
 Running on Android/iOS/Web
-
 Android: Open Android emulator or connect a physical device and run:
-arduino
 npm run android
-iOS: Open iOS simulator or connect a physical device and run:
-arduino
-npm run ios
-Web: Run the project in the web browser:
-arduino
-npm run web
-Testing
 
+iOS: Open iOS simulator or connect a physical device and run:
+npm run ios
+
+Web: Run the project in the web browser:
+npm run web
+
+Testing
 Use Expo Go app on your mobile device to test the app in real-time.
 Alternatively, use the respective emulators/simulators for Android/iOS for testing.
 
