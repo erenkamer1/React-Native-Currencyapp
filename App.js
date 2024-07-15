@@ -6,7 +6,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 import { Picker } from '@react-native-picker/picker';
 
 import Home from './src/Home';
-import SecondPage from './src/SecondPage';
+
 
 const Stack = createStackNavigator();
 
@@ -14,8 +14,8 @@ export default function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator initialRouteName="Home">
-        <Stack.Screen name="Home" component={Home} />
-        <Stack.Screen name="SecondPage" component={SecondPage} />
+        <Stack.Screen name="Currency Converter" component={Home} />
+        
       </Stack.Navigator>
     </NavigationContainer>
   );
