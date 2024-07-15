@@ -2,16 +2,15 @@ Currency App
 
 Installing
 Clone the Repository
-
-bash
+```bash
 git clone https://github.com/erenkamer1/React-Native-Currencyapp.git
 cd React-Native-Currencyapp
+
+
 Install Dependencies
-
-
+```bash
 npm install
 Configure Expo CLI (if not already installed)
-
 
 npm install -g expo-cli
 Start the Development Server
